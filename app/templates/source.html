@@ -9,6 +9,24 @@
         {% endif %}
     </head>
     <body>
-      <h3>GOING STRONG</h3>
+
+        <div class="container">
+          <h3>GOING STRONG</h3>
+          <div class="general">
+            <h3> General source</h3>
+            <ul>
+              {% for general_news in general %}
+              <li>
+                <p>{{ general_news.name}}</p><br>
+                <p>{{general_news.description}}</p><br>
+                <p><button type="button" name="Read more">{{general_news.url}}</button></p>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+
+
+        </div>
+
     </body>
 </html>
