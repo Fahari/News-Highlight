@@ -1,50 +1,79 @@
+body {
+  background-color: #BCBDC0;
+}
 
-.general{
+.general {
   display: flex;
   justify-content: space-between;
 }
+
 /* .thumbnail{
   display: flex;
   justify-content: space-between
 } */
-ul li{
-  list-style-type:none;
-  color:black;
+ul li {
+  list-style-type: none;
+  color: black;
 }
-.panel{
-  height: 200px;
+
+.panel {
+  height: 225px;
   text-align: center;
+  justify-content: center;
+  background-color: #0B3142;
 }
-.navbar{
+
+.navbar {
   background-color: #0B3142;
   border-radius: none;
+  padding:10px;
 }
-.general{
-  display:flex;
-  justify-content:space-around;
-  background-color: #0B3142;
+
+.general {
+  display: flex;
+  justify-content: space-around;
 }
-.col-md-4{
-  height:300px;
+
+.col-md-4 {
+  height: 300px;
 }
-h3{
+
+h3 {
   font-weight: bold;
   font-size: 60px;
   color: white;
 }
-.business{
-  display:flex;
-  justify-content:space-around;
+
+.business {
+  display: flex;
+  justify-content: space-around;
+  background-color: #565857;
 }
-.sports{
-  display:flex;
-  justify-content:space-around;
+
+.sports {
+  display: flex;
+  justify-content: space-around;
+  background-color: #BCBDC0;
 }
-.science{
-  display:flex;
-  justify-content:space-around;
+
+.science {
+  display: flex;
+  justify-content: space-around;
+  background-color: #BCBDC0;
 }
-.technology{
-  display:flex;
-  justify-content:space-around;
+
+.technology {
+  display: flex;
+  justify-content: space-around;
+  background-color: #565857;
+}
+.health{
+  display: flex;
+  justify-content: space-around;
+  background-color: #565857;
+}
+.entertainment{
+  display: flex;
+  justify-content: space-around;
+  background-color: #BCBDC0;
 }
