@@ -1,0 +1,50 @@
+
+.general{
+  display: flex;
+  justify-content: space-between;
+}
+/* .thumbnail{
+  display: flex;
+  justify-content: space-between
+} */
+ul li{
+  list-style-type:none;
+  color:black;
+}
+.panel{
+  height: 200px;
+  text-align: center;
+}
+.navbar{
+  background-color: #0B3142;
+  border-radius: none;
+}
+.general{
+  display:flex;
+  justify-content:space-around;
+  background-color: #0B3142;
+}
+.col-md-4{
+  height:300px;
+}
+h3{
+  font-weight: bold;
+  font-size: 60px;
+  color: white;
+}
+.business{
+  display:flex;
+  justify-content:space-around;
+}
+.sports{
+  display:flex;
+  justify-content:space-around;
+}
+.science{
+  display:flex;
+  justify-content:space-around;
+}
+.technology{
+  display:flex;
+  justify-content:space-around;
+}
