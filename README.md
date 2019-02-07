@@ -1,7 +1,7 @@
 # News-Highlight
 
 ### Author
-Kironji Kevin
+#### Kironji Kevin
 
 ### Description
 News-Highlight is an application meant to host a variety of news resources that will keep a user updated on current world issues.
@@ -32,13 +32,14 @@ To install these two,use the following commands
 $ sudo apt install git-all
 
 #python3.6
-$ sudo apt-get install python3.6.```
+$ sudo apt-get install python3.6.
+```
 ### Installation
 To access this application on your command line, you need to clone it
-`git clone #``
+```git clone #```
 ### Support and Contact Details
 
-Have a question? Want to report a bug? feeling philanthropic? want to buy some beans? drop a suggestion or comment at karonjekevin67@gmail.com}
+Have a question? Want to report a bug? feeling philanthropic? want to buy some beans? drop a suggestion or comment at karonjekevin67@gmail.com
 
 ### Bugs
 As at the time of completion there were no known bugs
