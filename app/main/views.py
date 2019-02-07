@@ -27,4 +27,4 @@ def source():
     health_news = get_source('health')
 
     title = 'Home -Let us get to the briefs'
-    return render_template('source.html', title = title,general=general_news,technology=technology_news,sports=sport_news,business=business_news,science=science_news,entertainment_news=entertainment,health_news=health)
+    return render_template('source.html', title = title,general=general_news,technology=technology_news,sports=sport_news,business=business_news,science=science_news,entertainment=entertainment_news,health=health_news)
