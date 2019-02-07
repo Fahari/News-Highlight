@@ -44,7 +44,7 @@ Have a question? Want to report a bug? feeling philanthropic? want to buy some b
 ### Bugs
 As at the time of completion there were no known bugs
 ### Live Site
-You can view the live site [here](#)
+You can view the live site [here](https://newsssss-highlight.herokuapp.com/)
 ### Licence
 This project is under the [MIT](https://github.com/Fahari/News-Highlight/blob/master/LICENSE) licence
 Feel free to use the code.
