@@ -46,7 +46,7 @@ As at the time of completion there were no known bugs
 ### Live Site
 You can view the live site [here](#)
 ### Licence
-This project is under the [MIT](#) licence
+This project is under the [MIT](https://github.com/Fahari/News-Highlight/blob/master/LICENSE) licence
 Feel free to use the code.
 
 Copyright (c) 2018 **Kironji Kevin**
