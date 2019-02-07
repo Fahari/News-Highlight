@@ -1,21 +1,26 @@
 from flask import render_template,request,redirect,url_for
 from . import main
 from ..request import get_source
+from ..models import Source
 
-# Views
+#Views
 @main.route('/')
 def source():
 
     '''
-    View root page function that returns the index page and its data
+    View root page function that returns the source page and its data
     '''
-    title = 'Home - Welcome to News Highlight'
+    #Getting general news
     general_news = get_source('general')
-    business_news = get_source('business')
-    entertainment_news = get_source('entertainment')
-    health_news = get_source('health')
-    science_news = get_source('science')
-    sports_news = get_source('sports')
+    print(general_news)
+    #getting technology news
     technology_news = get_source('technology')
-    # print(general_news)
-    return render_template('source.html', title = title,general = general_news,business = business_news,entertainment = entertainment_news,health = health_news,science = science_news,sports = sports_news,technology = technology_news)
+    #getting sport_news
+    sport_news = get_source('sports')
+    #getting business news
+    business_news = get_source('business')
+    #getting science news
+    science_news = get_source('science')
+
+    title = 'Home -Let us get to the briefs'
+    return render_template('source.html', title = title,general=general_news,technology=technology_news,sports=sport_news,business=business_news,science=science_news)

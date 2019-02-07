@@ -1,24 +1,23 @@
 import urllib.request,json
 from .models import Source
 
-
-# Getting api key
+#Getting api key
 api_key = None
 
-# Getting the movie base url
-baseSource_url = None
+#Getting the sources base url
+source_url = None
+
 
 def configure_request(app):
-    global api_key,base_url
+    global api_key,source_url
     api_key = app.config['NEWS_API_KEY']
-    base_url = app.config['SOURCE_API_BASE_URL']
-
+    source_url = app.config['SOURCE_API_BASE_URL']
 
 def get_source(category):
     '''
     Function that gets the json response to our url request
     '''
-    get_source_url = baseSource_url.format(category,api_key)
+    get_source_url = source_url.format(category,api_key)
 
     with urllib.request.urlopen(get_source_url) as url:
         get_source_data = url.read()
@@ -32,10 +31,9 @@ def get_source(category):
 
 
     return source_results
-
 def process_results(source_list):
     '''
-    Function  that processes the source result and transform them to a list of Objects
+    Function  that processes the sources result and transform them to a list of Objects
 
     Args:
         source_list: A list of dictionaries that contain source details
